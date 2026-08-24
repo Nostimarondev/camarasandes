@@ -159,11 +159,11 @@ export const ViewportCanvas: React.FC<ViewportCanvasProps> = ({
         >
           <defs>
             <pattern id="grid-pattern" width="40" height="40" patternUnits="userSpaceOnUse">
-              <path d="M 40 0 L 0 0 0 40" fill="none" stroke="var(--grid-line)" strokeWidth="1" />
-              <path d="M 200 0 L 0 0 0 200" fill="none" stroke="var(--grid-major)" strokeWidth="1.5" />
+              <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(59, 130, 246, 0.12)" strokeWidth="1" />
+              <path d="M 200 0 L 0 0 0 200" fill="none" stroke="rgba(59, 130, 246, 0.28)" strokeWidth="1.5" />
             </pattern>
             <pattern id="grid-pattern-fine" width="10" height="10" patternUnits="userSpaceOnUse">
-              <path d="M 10 0 L 0 0 0 10" fill="none" stroke="var(--grid-line-fine)" strokeWidth="0.5" />
+              <path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(59, 130, 246, 0.05)" strokeWidth="0.5" />
             </pattern>
             <radialGradient id="fov-gradient-active" cx="0%" cy="0%" r="100%" fx="0%" fy="0%">
               <stop offset="0%" stopColor="#3b82f6" stopOpacity="0.8" />

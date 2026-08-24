@@ -34,7 +34,7 @@ export const StreetNetwork: React.FC = () => {
       <path
         d={streetD}
         fill="rgba(30, 41, 59, 0.85)"
-        stroke="var(--border-accent)"
+        stroke="#3b82f6"
         strokeWidth="2"
       />
 
